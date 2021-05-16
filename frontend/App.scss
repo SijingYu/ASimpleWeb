@@ -1,0 +1,197 @@
+.App {
+  text-align: center;
+  background: url('./images/image1.jpg');
+  font-size: 16px;
+  color: #fff!important;
+  padding-bottom: 200px;
+  
+}
+ul,li{
+  list-style-type: none;
+}
+.App .content{
+  width: 60%;
+  margin: 0 auto;
+}
+.ant-col-offset-8{
+  margin-left: 0!important;
+}
+.radiosBox .ant-checkbox-wrapper{
+  margin: 0 10px;
+}
+#basic_remember .ant-space-vertical{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#info{
+  margin-top: 50px;
+}
+.App .ant-form-item-label > label{
+  font-size: 18px;
+  color: #fff;
+}
+.App h2{
+  font-size: 18px;
+  color: #fff!important;
+}
+.App .title{
+  color: #fff;
+}
+.App .box h2{
+  color: #fff;
+}
+.radiosBox span{
+  color: #fff;
+}
+.ant-space-item span{
+  color: #fff!important;
+}
+.ant-select-selection-item{
+  // color: #000!important;
+}
+[class^=ant-], [class*= ant-], [class^=ant-] *, [class*= ant-] *, [class^=ant-] *::before, [class*= ant-] *::before, [class^=ant-] *::after, [class*= ant-] *::after{
+  // color: #000;
+}
+.ant-btn-primary span{
+  color: #fff;
+}
+.footer{
+  padding: 20px 0;
+}
+.ant-space-Unsolved{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ant-space-item{
+  margin: 10px 0;
+}
+.radiosBox .container{
+ 
+  
+}
+.box .content{
+  background: url(./images/image2.jpg) no-repeat 100% 100%;
+  border-radius: 5px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box  .switchBtn{
+  background: url(./images/image3.jpg) no-repeat 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box .content .switch{
+  position: absolute;
+  top: 4px;
+  right: 10px;
+}
+.box h3{
+  color: #000;
+  margin: 10px 0;
+}
+.popup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  // cursor: pointer;
+}
+.popup .popupBox{
+  width: 26%;
+  border: 20px;
+  background: #bbb;
+  padding: 30px 0;
+  border-radius: 30px;
+}
+.popup .popupBox label{
+  color: #000;
+}
+.ant-form-item-control-input-content{
+  padding: 0 60px 0 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.ant-slider{
+  width:100%;
+}
+.App .content .container{
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  overflow-y: scroll;
+  transform: scaleY(-1);
+}
+.App .content .container .newsList{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.2s;
+  transform: scaleY(-1);
+}
+::-webkit-scrollbar{
+  width: 4px;
+  background: #bbb;
+  border-radius: 2px;
+  height: calc(600px -200px);
+}
+.role{
+  padding: 30px 80px;
+  width: 100%;
+  
+}
+.role .ant-radio-group-outline{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.role .ant-radio-group-outline .ant-radio-wrapper span{
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.newsList .item{
+  flex: auto;
+  
+  /* transform: scaleY(-1); */
+}
+.newsList .itemBox{
+  border-radius: 5px;
+  display:inline-block;
+  color: #000;
+  max-width: 50%;
+  white-space: pre-wrap;
+}
+.newsList .itemR{
+  text-align: right;
+  padding: 4px 10px;
+  
+}
+.newsList .itemL{
+  text-align: left;
+  padding: 4px 10px;
+}
+.newsList .itemR .itemBox{
+  background: #0f0;
+  color: #000;
+  text-align: right;
+}
+.newsList .itemL .itemBox{
+  background: #fff;
+  color: #000;
+text-align: left;
+}
